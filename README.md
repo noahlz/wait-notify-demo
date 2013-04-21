@@ -12,7 +12,7 @@ Builds with [Apache Maven](http://maven.apache.org).
 
 Build and run:
 
-mvn compile exec:java
+    mvn compile exec:java
 
 # License
 
