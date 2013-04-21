@@ -12,8 +12,8 @@
   <!-- http://github.com/matthewmccullough/maven-training-samplegitscm/blob/master/pom.xml -->
   <scm>
     <!-- "You would think this is a Public Read-Only connection, but it allows for authenticated PUSH too" -->
-    <connection>scm:git:git://github.com/noahlz/sandbox.git</connection>
-    <url>http://github.com/noahlz/sandbox/tree/master/java/wait-notify-test/</url>
+    <connection>scm:git:git://github.com/noahlz/wait-notify-demo.git</connection>
+    <url>http://github.com/noahlz/wati-notify-demo/tree/</url>
   </scm>
 
   <build>
@@ -30,7 +30,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>sandbox.WaitNotifyTest</mainClass>
+          <mainClass>examples.WaitNotifyTest</mainClass>
         </configuration>
       </plugin>
 

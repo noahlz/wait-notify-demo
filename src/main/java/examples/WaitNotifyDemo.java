@@ -1,4 +1,4 @@
-package sandbox;
+package examples;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class WaitNotifyTest {
+public class WaitNotifyDemo {
 
     // Note: this sample (being a toy application) doesn't handle InterruptedException properly.
     // See: http://www.ibm.com/developerworks/java/library/j-jtp05236.html
