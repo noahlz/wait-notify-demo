@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>wait-notify-test</groupId>
+  <artifactId>wait-notify-test</artifactId>
+  <version>1.0</version>
+
+  <!-- SCM configuration borrowed from this example: -->
+  <!-- http://github.com/matthewmccullough/maven-training-samplegitscm/blob/master/pom.xml -->
+  <scm>
+    <!-- "You would think this is a Public Read-Only connection, but it allows for authenticated PUSH too" -->
+    <connection>scm:git:git://github.com/noahlz/sandbox.git</connection>
+    <url>http://github.com/noahlz/sandbox/tree/master/java/wait-notify-test/</url>
+  </scm>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.2</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>sandbox.WaitNotifyTest</mainClass>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+
+</project>
