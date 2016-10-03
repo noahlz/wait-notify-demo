@@ -11,7 +11,7 @@ public class WaitNotifyDemo {
     // Note: this sample (being a toy application) doesn't handle InterruptedException properly.
     // See: http://www.ibm.com/developerworks/java/library/j-jtp05236.html
 
-    private static final Logger log = Logger.getLogger(WaitNotifyTest.class.getName());
+    private static final Logger log = Logger.getLogger(WaitNotifyDemo.class.getName());
 
     public static void main(String[] args) {
         runPoliteTest();
